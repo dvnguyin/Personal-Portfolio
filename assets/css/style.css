@@ -480,6 +480,36 @@ img {
   width: 80%;
 }
 
+.skills__python {
+  width: 70%;
+}
+
+.skills__node {
+  width: 80%;
+}
+
+.skills__firebase {
+  width: 65%;
+}
+
+.skills__mysql {
+  width: 80%;
+}
+
+.skills__close .skills__list {
+  height: 0;
+  overflow: hidden;
+}
+
+.skills__open .skills__list {
+  height: max-content;
+  margin-bottom: var(--mb-2-5);
+}
+
+.skills__open .skills__arrow {
+  transform: rotate(-180deg);
+}
+
 /* Active Modal */
 
 
