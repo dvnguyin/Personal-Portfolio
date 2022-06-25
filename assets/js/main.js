@@ -16,10 +16,11 @@ if (navClose) {
 }
 
 const skillsContent = document.getElementsByClassName('skills__content'),
-    skills = document.querySelectorAll('skills__header')
+    skillsHeader = document.querySelectorAll('.skills__header')
 
 function toggleSkills() {
-    let itemClass = this.parentNode.getElementsByClassName
+    let itemClass = this.parentNode.getClassName
+
     for (i = 0; i < skillsContent.length; i++) {
         skillsContent[i].className = 'skills__content skills__close'
     }
